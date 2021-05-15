@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="386dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/icon"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="ADD A NEW PLACE"
+        android:background="#7FFFD4"/>
+
+    <Button
+        android:id="@+id/showAll"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#7FFFD4"
+        android:text="SHOW ALL ON MAP"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="431dp" />
+</LinearLayout>
